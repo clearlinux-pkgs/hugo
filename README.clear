@@ -1,0 +1,12 @@
+Create vendored dependencies for offline build by updating
+the projects/hugo-vendor repository.  Run the following
+script to create the vendored dependencies:
+
+go get -d github.com/gohugoio/hugo
+find "$GOPATH" -type d -name '.git' -exec rm -rf {} +
+rm -rf "$GOPATH"/src/github.com/gohugoio/hugo
+ln -sf ../../../ "$GOPATH"/src/github.com/gohugoio/hugo
+
+Then take the resulting src folder and replace the one from
+the repository.  Add all changes as a new commit, and tag
+the commit with the version of hugo being built.
