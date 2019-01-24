@@ -1,6 +1,6 @@
 Name     : hugo
 Version  : 0.40.3
-Release  : 3
+Release  : 4
 URL      : https://github.com/gohugoio/hugo
 Source0  : https://github.com/gohugoio/hugo/archive/v0.40.3.tar.gz
 Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.40.3.tar.gz
