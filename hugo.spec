@@ -1,9 +1,9 @@
 Name     : hugo
-Version  : 0.56.3
-Release  : 17
+Version  : 0.57.0
+Release  : 18
 URL      : https://github.com/gohugoio/hugo
-Source0  : https://github.com/gohugoio/hugo/archive/v0.56.3/hugo-0.56.3.tar.gz
-Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.56.2.tar.xz
+Source0  : https://github.com/gohugoio/hugo/archive/v0.57.0/hugo-0.57.0.tar.gz
+Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.57.0.tar.xz
 Summary  : The world’s fastest framework for building websites
 Group    : Development/Tools
 License  : Apache-2.0 MIT
@@ -15,7 +15,7 @@ BuildRequires : go
 Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again.
 
 %prep
-%setup -q -n hugo-0.56.3
+%setup -q
 tar --strip 1 -xf %{SOURCE1}
 mv src vendor
 
