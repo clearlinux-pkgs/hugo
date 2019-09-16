@@ -1,8 +1,8 @@
 Name     : hugo
-Version  : 0.58.1
-Release  : 23
+Version  : 0.58.2
+Release  : 24
 URL      : https://github.com/gohugoio/hugo
-Source0  : https://github.com/gohugoio/hugo/archive/v0.58.1/hugo-0.58.1.tar.gz
+Source0  : https://github.com/gohugoio/hugo/archive/v0.58.2/hugo-0.58.2.tar.gz
 Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.58.1.tar.xz
 Summary  : The world’s fastest framework for building websites
 Group    : Development/Tools
