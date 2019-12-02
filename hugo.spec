@@ -1,9 +1,9 @@
 Name     : hugo
-Version  : 0.59.1
-Release  : 27
+Version  : 0.60.1
+Release  : 28
 URL      : https://github.com/gohugoio/hugo
-Source0  : https://github.com/gohugoio/hugo/archive/v0.59.1/hugo-0.59.1.tar.gz
-Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.59.1.tar.xz
+Source0  : https://github.com/gohugoio/hugo/archive/v0.60.1/hugo-0.60.1.tar.gz
+Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.60.1.tar.xz
 Summary  : The world’s fastest framework for building websites
 Group    : Development/Tools
 License  : Apache-2.0 MIT
