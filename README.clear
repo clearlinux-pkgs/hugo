@@ -2,3 +2,7 @@ Create vendored dependencies for offline build by updating the
 projects/hugo-vendor repository. In hugo-vendor, run `make VER="<HugoVer>"` to
 automate most of the process, where <HugoVer> is the upstream hugo version
 (without the "v" prefix).
+
+If a hotfix hugo-vendor release is ever needed, extend the release version with
+a 4th number. For example, a hotfix release for hugo-vendor 0.64.0 would have
+version "0.64.0.1", a second hotfix release would be "0.64.0.2", etc.

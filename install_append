@@ -1,0 +1,2 @@
+install -d -m0755 %{buildroot}/usr/bin
+install -m0755 hugo %{buildroot}/usr/bin/hugo
