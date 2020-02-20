@@ -3,12 +3,14 @@
 go-cloud.google.com-go
 go-github.com-BurntSushi-locker
 go-github.com-BurntSushi-toml
+go-github.com-GeertJohan-go.rice
 go-github.com-PuerkitoBio-purell
 go-github.com-PuerkitoBio-urlesc
 go-github.com-alecthomas-assert
 go-github.com-alecthomas-chroma
 go-github.com-alecthomas-colour
 go-github.com-alecthomas-kong
+go-github.com-alecthomas-kong-hcl
 go-github.com-alecthomas-repr
 go-github.com-armon-consul-api
 go-github.com-armon-go-radix
@@ -16,6 +18,7 @@ go-github.com-aws-aws-sdk-go
 go-github.com-bep-debounce
 go-github.com-bep-gitmap
 go-github.com-bep-go-tocss
+go-github.com-bep-golibsass
 go-github.com-bep-tmc
 go-github.com-cheekybits-is
 go-github.com-client9-misspell
@@ -44,6 +47,9 @@ go-github.com-golang-mock
 go-github.com-golang-protobuf
 go-github.com-google-btree
 go-github.com-google-go-cmp
+go-github.com-gorilla-csrf
+go-github.com-gorilla-handlers
+go-github.com-gorilla-mux
 go-github.com-gorilla-websocket
 go-github.com-grpc-ecosystem-go-grpc-middleware
 go-github.com-grpc-ecosystem-go-grpc-prometheus
