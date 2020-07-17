@@ -1,1 +1,1 @@
--f foo.make || go build -mod=vendor -v
+-f foo.make || go build -mod=vendor -buildmode=pie -v

@@ -4,7 +4,7 @@
 #
 Name     : hugo
 Version  : 0.74.2
-Release  : 52
+Release  : 53
 URL      : https://github.com/gohugoio/hugo/archive/v0.74.2/hugo-0.74.2.tar.gz
 Source0  : https://github.com/gohugoio/hugo/archive/v0.74.2/hugo-0.74.2.tar.gz
 Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.74.0.tar.xz
@@ -53,7 +53,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1595019258
+export SOURCE_DATE_EPOCH=1595020440
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -62,11 +62,11 @@ export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
 export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
-make  %{?_smp_mflags}  -f foo.make || go build -mod=vendor -v
+make  %{?_smp_mflags}  -f foo.make || go build -mod=vendor -buildmode=pie -v
 
 
 %install
-export SOURCE_DATE_EPOCH=1595019258
+export SOURCE_DATE_EPOCH=1595020440
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/hugo
 cp %{_builddir}/hugo-0.74.2/LICENSE %{buildroot}/usr/share/package-licenses/hugo/7df059597099bb7dcf25d2a9aedfaf4465f72d8d
