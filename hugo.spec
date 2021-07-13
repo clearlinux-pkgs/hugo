@@ -4,7 +4,7 @@
 #
 Name     : hugo
 Version  : 0.80.0
-Release  : 70
+Release  : 71
 URL      : https://github.com/gohugoio/hugo/archive/v0.80.0/hugo-0.80.0.tar.gz
 Source0  : https://github.com/gohugoio/hugo/archive/v0.80.0/hugo-0.80.0.tar.gz
 Source1  : http://localhost/cgit/projects/hugo-vendor/snapshot/hugo-vendor-0.80.0.tar.xz
